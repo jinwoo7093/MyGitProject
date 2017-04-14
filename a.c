@@ -8,5 +8,9 @@ int main()
     scanf("%d", &a);
     printf("%d\n", a);
 
+    if(a == 0) {
+        printf("Zero input!");
+    }
+
     return 0;
 }
